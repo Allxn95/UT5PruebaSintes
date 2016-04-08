@@ -15,8 +15,7 @@ public class Calculadora {
   
     private String oper2; //El segundo operador que se va a usar en la calculadora
     
-    private String operacion; //El tercer operador que se va a usar en la calculadora
-
+    private String operador; //El tercer operador que se va a usar en la calculadora
     
     
     public String getOperador1() {
@@ -35,11 +34,11 @@ public class Calculadora {
         this.oper2 = oper2;
     }
 
-    public String getOperacion() {
-        return operacion;
+    public String getOperador() {
+        return operador;
     }
 
-    public void setOperacion(String operacion) {
-        this.operacion = operacion;
+    public void setOperador(String operador) {
+        this.operador = operador;
     }
 }
