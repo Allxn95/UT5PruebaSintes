@@ -6,15 +6,19 @@
 package ut5pruebasintesisallanespinozaibañez;
 
 /**
- *
+ *  codigos para una calculadora
  * @author Allla_000
  */
 public class Calculadora {
-    
-    private String operador1;
-    private String operador2;
-    private String operacion;
 
+    private String operador1; //El primer operador que se va a usar en la calculadora
+  
+    private String oper2; //El segundo operador que se va a usar en la calculadora
+    
+    private String operacion; //El tercer operador que se va a usar en la calculadora
+
+    
+    
     public String getOperador1() {
         return operador1;
     }
@@ -23,12 +27,12 @@ public class Calculadora {
         this.operador1 = operador1;
     }
 
-    public String getOperador2() {
-        return operador2;
+    public String getOper2() {
+        return oper2;
     }
 
-    public void setOperador2(String operador2) {
-        this.operador2 = operador2;
+    public void setOper2(String oper2) {
+        this.oper2 = oper2;
     }
 
     public String getOperacion() {
