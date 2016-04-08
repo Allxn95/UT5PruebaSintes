@@ -13,7 +13,7 @@ public class Calculadora {
     
     private String operador1;
     private String operador2;
-    private String operacion;
+    private String operador;
 
     public String getOperador1() {
         return operador1;
@@ -31,11 +31,11 @@ public class Calculadora {
         this.operador2 = operador2;
     }
 
-    public String getOperacion() {
-        return operacion;
+    public String getOperador() {
+        return operador;
     }
 
-    public void setOperacion(String operacion) {
-        this.operacion = operacion;
+    public void setOperador(String operador) {
+        this.operador = operador;
     }
 }
