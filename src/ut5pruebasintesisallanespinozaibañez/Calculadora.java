@@ -12,7 +12,7 @@ package ut5pruebasintesisallanespinozaibañez;
 public class Calculadora {
     
     private String operador1;
-    private String operador2;
+    private String oper2;
     private String operador;
 
     public String getOperador1() {
@@ -23,12 +23,12 @@ public class Calculadora {
         this.operador1 = operador1;
     }
 
-    public String getOperador2() {
-        return operador2;
+    public String getOper2() {
+        return oper2;
     }
 
-    public void setOperador2(String operador2) {
-        this.operador2 = operador2;
+    public void setOper2(String oper2) {
+        this.oper2 = oper2;
     }
 
     public String getOperador() {
